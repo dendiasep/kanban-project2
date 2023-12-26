@@ -24,7 +24,6 @@ const router = createBrowserRouter([
     ],  
   },
 ],
-{basename: '/kanban-project2/'} 
 )
 
 function App(): JSX.Element {
