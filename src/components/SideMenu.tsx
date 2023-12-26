@@ -1,6 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import type { CSSProperties } from '../constants/types'
+import type { CSSProperties } from '../types/index'
 
 const SideMenu = (): JSX.Element => {
     return (
