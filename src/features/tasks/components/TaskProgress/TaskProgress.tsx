@@ -1,9 +1,9 @@
-import type {  CSSProperties } from '../../../constants/types'
+import type {  CSSProperties } from '../../../../types/index'
 
-const TaskList = (): JSX.Element => {
+const TaskProgress = (): JSX.Element => {
     return (
         <div style={styles.container}>
-            <h1 style={styles.heading}>Task List</h1>
+            <h1 style={styles.heading}>Task Progress</h1>
         </div>
     )
 }
@@ -18,4 +18,4 @@ const styles: CSSProperties = {
     },
 }
 
-export default TaskList
+export default TaskProgress
