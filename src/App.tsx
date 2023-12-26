@@ -14,7 +14,7 @@ const router = createBrowserRouter([
         element: <TaskSummary />
       },
       {
-        path: '/task-list',
+        path: 'task-list',
         element: <TaskList />
       },
       {
